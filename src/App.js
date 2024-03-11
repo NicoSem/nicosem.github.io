@@ -4,12 +4,13 @@ import AboutMePage from './pages/AboutMePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetailsPage from './pages/ProjectDetailsPage';
 import ContactPage from './pages/ContactPage';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1>Nicolae Semionov</h1>
+        <NavBar />
         <div id="page-body">
           <Routes>
             <Route path="/" element={<AboutMePage />} />
