@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import AboutMePage from './pages/AboutMePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetailsPage from './pages/ProjectDetailsPage';
-import ContactPage from './pages/ContactPage';
+import ContactDetails from './components/ContactDetails';
 import NavBar from './components/NavBar';
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
             <Route path="/" element={<AboutMePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/projects/:projectId" element={<ProjectDetailsPage />} />
-            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </div>
+        <ContactDetails />
       </div>
     </BrowserRouter>
     
