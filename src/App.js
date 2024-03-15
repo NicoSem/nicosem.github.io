@@ -1,5 +1,6 @@
 import './style.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage';
 import AboutMePage from './pages/AboutMePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetailsPage from './pages/ProjectDetailsPage';
@@ -13,7 +14,8 @@ function App() {
         <NavBar />
         <div id="page-body">
           <Routes>
-            <Route path="/" element={<AboutMePage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutMePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/projects/:projectId" element={<ProjectDetailsPage />} />
           </Routes>
