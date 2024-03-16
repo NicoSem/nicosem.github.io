@@ -1,3 +1,5 @@
+import "./ContactDetails.scss"
+
 const ContactDetails = () => {
     return (
         <>
