@@ -1,18 +1,27 @@
 .navBar {
-    ul {
-        display: inline-block;
-        list-style-type: none;
+    display: inline-block;
+    list-style-type: none;
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: 25px;
+    width: 100%;
+
+    .left {
+        float: left;
+        li {
+            display: inline-block;
+            margin-right: 1em;
+        }
+    
+        a {
+            text-decoration: none;
+        }
     }
 
-    li {
-        display: inline-block;
-        margin-right: 1em;
+    .right {
+        
+        size: 50px;
+        float: right;
     }
-
-    a {
-        text-decoration: none;
-        font-family: monospace;
-        color: whitesmoke;
-        font-size: 25px;
-    }
+    
 }
