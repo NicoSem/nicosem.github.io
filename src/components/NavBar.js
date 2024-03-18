@@ -15,6 +15,10 @@ const NavBar = () => {
                     <Link to="/projects">projects()</Link>
                 </li>
             </ul>
+
+            <div className="contactDetails">
+                <span>Contact: </span>
+            </div>
         </div>
     )
 }

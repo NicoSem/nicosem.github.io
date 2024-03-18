@@ -1,12 +1,12 @@
 .navBar {
-    
     ul {
-        list-style: none;
+        display: inline-block;
+        list-style-type: none;
     }
 
     li {
         display: inline-block;
-        margin-right: 0.5em;
+        margin-right: 1em;
     }
 
     a {
