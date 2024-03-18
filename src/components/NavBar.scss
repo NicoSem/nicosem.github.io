@@ -6,22 +6,27 @@
     font-size: 25px;
     width: 100%;
 
+    li {
+        display: inline-block;
+        margin-right: 1em;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        
+        &:hover {
+            color: rgb(255, 222, 115);
+        }
+    }
+    
     .left {
         float: left;
-        li {
-            display: inline-block;
-            margin-right: 1em;
-        }
     
-        a {
-            text-decoration: none;
-        }
+
     }
 
     .right {
-        
-        size: 50px;
         float: right;
     }
-    
 }

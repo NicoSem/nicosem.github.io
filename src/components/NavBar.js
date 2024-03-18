@@ -30,10 +30,20 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="right">
-                <a onClick={() => setClipboard("6477644675")}><PhoneIcon/></a>
-                <a onClick={() => setClipboard("nicolae.semionov@gmail.com")}><EmailIcon/></a>
-                <a href="https://github.com/NicoSem"><GitHubIcon/></a>
-                <a href="https://www.linkedin.com/in/nicolae-semionov-4b70041ab/"><LinkedInIcon /></a>
+                <ul>
+                    <li>
+                        <a onClick={() => setClipboard("6477644675")}><PhoneIcon/></a>
+                    </li>
+                    <li>
+                        <a onClick={() => setClipboard("nicolae.semionov@gmail.com")}><EmailIcon/></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/NicoSem"><GitHubIcon/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/nicolae-semionov-4b70041ab/"><LinkedInIcon /></a>
+                    </li>
+                </ul>
             </div>
         </div>
     )
