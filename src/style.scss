@@ -1,3 +1,4 @@
+@use "variables" as var;
 
 body {
     font-family: monospace;
@@ -12,5 +13,9 @@ body {
 #page-body {
     margin: 10em;
     padding: 1em;
-    background-color: rgb(136, 136, 136);
+    background-color: var.$primary-color;
+    backdrop-filter: var.$blur;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: var.$primary-outline;
 }
