@@ -27,6 +27,9 @@ const NavBar = () => {
                     <li>
                         <Link to="/projects">projects()</Link>
                     </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1bdWh2HVQ5eNcofA6edUpb93_hagG62Wl/view?usp=sharing">resume()</a>
+                    </li>
                 </ul>
             </div>
             <div className="right">
