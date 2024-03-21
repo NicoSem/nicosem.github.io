@@ -4,7 +4,6 @@ import HomePage from './pages/HomePage';
 import AboutMePage from './pages/AboutMePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetailsPage from './pages/ProjectDetailsPage';
-import ContactDetails from './components/ContactDetails';
 import NotFoundPage from './pages/NotFoundPage';
 import NavBar from './components/NavBar';
 

@@ -9,7 +9,10 @@ const ProjectsPage = () => {
             <div className="project">
                 {projects.map(project => (
                     <Link to={`/projects/${project.name}`}>
-                        <h3>{project.name}</h3>
+                        <div className="project-header">
+                            <h3>{project.name}</h3>
+                            <img src={`/language_icons/${project.language}.png`}/>
+                        </div>
                         <p>{project.description}</p>
                     </Link>
                 ))}
