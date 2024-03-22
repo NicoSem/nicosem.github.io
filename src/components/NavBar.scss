@@ -34,3 +34,14 @@
         float: right;
     }
 }
+
+@media screen and (max-width: 900px){
+    .navBar {
+        display: grid
+    }
+
+    .left, .right {
+        float: none;
+        
+    }
+}
