@@ -24,6 +24,7 @@ a {
 #page-body {
     margin: 10em;
     padding: 1em;
+    min-width: 400px;
     background-color: var.$primary-color;
     backdrop-filter: var.$blur;
     outline-style: solid;
@@ -31,4 +32,10 @@ a {
     outline-color: var.$primary-outline;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 500px) {
+    #page-body {
+      margin: 1em;
+    }
+  }
 
