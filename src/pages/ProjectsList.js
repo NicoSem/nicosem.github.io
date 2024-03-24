@@ -1,8 +1,8 @@
-import "./ProjectsPage.scss"
+import "./ProjectsList.scss"
 import { Link } from "react-router-dom"
 import projects from "../components/ProjectDetails"
 
-const ProjectsPage = () => {
+const ProjectsList = () => {
     return (
         <>
             <h1>Projects</h1>
@@ -23,4 +23,4 @@ const ProjectsPage = () => {
     )
 }
 
-export default ProjectsPage
+export default ProjectsList

@@ -1,4 +1,4 @@
-const AboutMePage = () => {
+const AboutMe = () => {
     return (
         <>
             <div className="container">
@@ -44,4 +44,4 @@ const AboutMePage = () => {
     )
 }
 
-export default AboutMePage
+export default AboutMe

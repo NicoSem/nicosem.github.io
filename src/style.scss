@@ -1,18 +1,9 @@
 @use "variables" as var;
 
-@keyframes move {
-    from {background-position: bottom left;}
-    to {background-position: top right;}
-}
-
 body {
     font-family: monospace;
     color: whitesmoke;
     text-decoration: none;
-    background-image: url("./components/backgroundImage.png");
-    animation: move 100s linear infinite;
-    animation-timing-function: linear;
-    background-position: center;
     background-color: rgb(36, 36, 36);
 }
 
@@ -21,21 +12,26 @@ a {
     color: whitesmoke;
 }
 
-#page-body {
-    margin: 10em;
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-body {
     padding: 1em;
-    min-width: 400px;
+    width: 816px; //width of a standard 8.5x11 sheet of paper
+    left: 100px;
     background-color: var.$primary-color;
-    backdrop-filter: var.$blur;
     outline-style: solid;
     outline-width: 2px;
     outline-color: var.$primary-outline;
     border-radius: 10px;
 }
 
-@media screen and (max-width: 700px) {
-    #page-body {
-      margin: 1em;
+@media screen and (max-width: var.$navbarSwap) {
+    .page-body {
+        margin: 5rem auto;
+        left: 0px;
     }
-  }
-
+}

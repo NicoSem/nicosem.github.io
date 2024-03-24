@@ -1,9 +1,9 @@
-import "./ProjectDetailsPage.scss"
+import "./ProjectDetails.scss"
 import { useParams } from "react-router-dom";
 import projects from "../components/ProjectDetails";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-const ProjectDetailsPage = () => {
+const ProjectDetails = () => {
     const { projectId } = useParams()
     const project = projects.find(project => project.name === projectId)
 
@@ -19,4 +19,4 @@ const ProjectDetailsPage = () => {
     )
 }
 
-export default ProjectDetailsPage
+export default ProjectDetails
