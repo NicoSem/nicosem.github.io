@@ -1,6 +1,12 @@
-.project a{
-    text-decoration: none;
+@use "src/variables.scss" as var;
+
+.project {
+    a{
+        color: var.$text-color;
+        text-decoration: none;
+    }
 }
+
 
 .project-header {
     display: flex;

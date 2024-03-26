@@ -17,17 +17,19 @@ const ContactDetails = () => {
     return (
         <div className="navBar">
             <ul>
-                <li>
-                    <a onClick={() => setClipboard("6477644675")}><PhoneIcon/></a>
+                <li className="grow">
+                    <a onClick={() => setClipboard("6477644675")}><PhoneIcon sx={{color: "black"}}/></a>
+                    <span className="tooltip">647-764-4675</span>
                 </li>
-                <li>
-                    <a onClick={() => setClipboard("nicolae.semionov@gmail.com")}><EmailIcon/></a>
+                <li className="grow">
+                    <a onClick={() => setClipboard("nicolae.semionov@gmail.com")}><EmailIcon sx={{color: "black"}}/></a>
+                    <span className="tooltip">nicolae.semionov@gmail.com</span>
                 </li>
-                <li>
-                    <a href="https://github.com/NicoSem"><GitHubIcon/></a>
+                <li className="grow">
+                    <a href="https://github.com/NicoSem"><GitHubIcon sx={{color: "black"}}/></a>
                 </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/nicolae-semionov-4b70041ab/"><LinkedInIcon /></a>
+                <li className="grow">
+                    <a href="https://www.linkedin.com/in/nicolae-semionov-4b70041ab/"><LinkedInIcon sx={{color: "black"}}/></a>
                 </li>
             </ul>
         </div>

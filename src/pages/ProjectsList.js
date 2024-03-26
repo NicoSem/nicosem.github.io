@@ -5,10 +5,9 @@ import projects from "../components/ProjectDetails"
 const ProjectsList = () => {
     return (
         <>
-            <h1>Projects</h1>
             <div className="project">
                 {projects.map(project => (
-                    <Link to={`/projects/${project.name}`}>
+                    <Link to={`/${project.name}`}>
                         <div className="project-header">
                             <h3>{project.title}</h3>
                             <img src={`/language_icons/${project.language}.png`}/>

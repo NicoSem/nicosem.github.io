@@ -1,3 +1,9 @@
+@use "src/variables.scss" as var;
+
+.container {
+    padding: 1rem;
+}
+
 .project-header {
     display: flex;
     align-items: center;
@@ -7,9 +13,10 @@
     }
 
     a {
+        color: rgb(126, 126, 126);
         transform: scale(1.2);
         &:hover {
-            color: rgb(255, 222, 115);
+            color: rgb(0, 0, 0);
         }
     }
 }

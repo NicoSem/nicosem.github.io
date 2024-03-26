@@ -1,0 +1,40 @@
+@use "src/variables.scss" as var;
+
+.Collapsible {
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(143, 143, 143);
+}
+
+.Collapsible__trigger {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(170, 170, 170);
+    margin: 0.5rem;
+    cursor: pointer;
+    .arrow {
+        transform: scale(1.5);
+    }
+
+    &.is-open {
+        color: var.$text-color;
+        .arrow {
+            transform: rotate(90deg) scale(1.5);
+        }
+    }
+}
+
+.Collapsible__contentOuter {
+    margin-top: 0.5rem;
+    background-color: rgb(212, 212, 212);
+    box-shadow: inset 0px 26px 32px -30px #000000;
+    width: 100%;
+}
+
+.Collapsible__contentInner {
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
