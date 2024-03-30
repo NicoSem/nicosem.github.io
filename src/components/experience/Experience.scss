@@ -1,0 +1,13 @@
+@use "src/variables.scss" as var;
+
+.positiontitle {
+    color: var.$primary-color;
+}
+
+.timeworked {
+    font-style: italic;
+}
+
+.company {
+    color: var.$secondary-color
+}

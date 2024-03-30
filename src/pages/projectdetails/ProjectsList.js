@@ -1,6 +1,6 @@
 import "./ProjectsList.scss"
 import { Link } from "react-router-dom"
-import projects from "../components/ProjectDetails"
+import projects from "./ProjectDetails"
 
 const ProjectsList = () => {
     return (

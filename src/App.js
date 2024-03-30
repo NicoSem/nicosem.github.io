@@ -1,15 +1,15 @@
 import './style.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import HomePage from './pages/HomePage';
-import ProjectDetailsPage from './pages/ProjectDetailsPage';
-import NotFoundPage from './pages/NotFoundPage';
-import ContactDetails from './components/ContactDetails.js';
+import HomePage from './pages/home/HomePage.js';
+import ProjectDetailsPage from './pages/projectdetails/ProjectDetailsPage.js';
+import NotFoundPage from './pages/notfound/NotFoundPage.js';
+import NavBar from './components/navbar/NavBar.js';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <ContactDetails />
+        <NavBar />
         <div className="page-body">
           <Routes>
             <Route path="/" element={<HomePage />} />

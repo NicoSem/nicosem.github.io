@@ -1,0 +1,12 @@
+@use "src/variables.scss" as var;
+
+.skills {
+    padding: 5%;
+
+    h2 {
+        text-align: center;
+        color: var.$primary-color;
+    }
+}
+
+

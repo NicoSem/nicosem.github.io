@@ -1,7 +1,7 @@
 import "./ProjectDetailsPage.scss"
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom"
-import projects from "../components/ProjectDetails";
+import projects from "./ProjectDetails";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { hover } from "@testing-library/user-event/dist/hover";

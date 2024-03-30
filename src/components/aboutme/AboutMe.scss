@@ -1,0 +1,43 @@
+@use "src/variables.scss" as var;
+
+.aboutme {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 5%;
+}
+
+.me {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 50vw;
+    height: 50vw;
+    border-width: 10px;
+    border-style: solid;
+    border-color: var.$primary-color;
+    margin-left: 50%;
+    margin-right: auto;
+    transform: translate(-50%, 0);
+}
+
+.name {
+    font-size: 20;
+}
+
+.title {
+    color: var.$primary-color;
+}
+
+.contact {
+    color: var.$secondary-color;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.copyicon{
+    transform: scale(0.8);
+    position: relative;
+    top: 5px;
+}
