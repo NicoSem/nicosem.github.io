@@ -1,0 +1,11 @@
+@use "src/variables.scss" as var;
+
+
+
+.institution {
+    color: var.$primary-color;
+}
+
+.degree {
+    color: var.$secondary-color;
+}
