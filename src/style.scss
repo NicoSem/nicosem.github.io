@@ -8,3 +8,10 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 800px){
+    .page-body {
+        scroll-snap-type: y mandatory;
+    }
+    
+}
